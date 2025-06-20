@@ -10,7 +10,7 @@ on:
         type: string
 
 jobs: 
-  build:
+  build_called:
     runs-on: ubuntu-latest
 
     steps: 
@@ -25,7 +25,7 @@ jobs:
       - run: npm install
       - run: npm run build
 
-  test: 
+  test_called: 
     needs: build
 
     runs-on: ubuntu-latest
