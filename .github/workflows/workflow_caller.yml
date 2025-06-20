@@ -1,5 +1,5 @@
 name: caller
-on: push
+on: workflow_dispatch
 jobs:
   my-job-start:
     # Importing a reusable workflow from another repository and branch
